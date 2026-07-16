@@ -4257,6 +4257,7 @@ libc_support_library(
         ],
         "//conditions:default": [],
     }),
+    copt_sets = ["threading"],
     deps = [
         ":__support_common",
         ":__support_cpp_array",
